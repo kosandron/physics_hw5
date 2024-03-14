@@ -5,7 +5,7 @@ var graphE = new Chart(ctx1, {
     data: {
       labels: xData,
       datasets: [{
-        label: 'График зависимости I от времени при замыкании цепи',
+        label: 'График зависимости I(t) при замыкании цепи',
         data: yData,
         borderWidth: 1
       }]
@@ -23,7 +23,7 @@ var graphE = new Chart(ctx1, {
     data: {
       labels: xData,
       datasets: [{
-        label: 'График зависимости I от времени при размыкании цепи',
+        label: 'График зависимости I(t) при размыкании цепи',
         data: yData,
         borderWidth: 1
       }]
@@ -79,7 +79,7 @@ function paint() {
           data: {
             labels: xData,
             datasets: [{
-              label: 'График зависимости I от времени при замыкании цепи',
+              label: 'График зависимости I(t) при замыкании цепи',
               data: yDataIMaking,
               pointStyle: false
             }]
@@ -113,7 +113,7 @@ function paint() {
               data: {
                 labels: xData,
                 datasets: [{
-                  label: 'График зависимости I от времени при размыкании цепи',
+                  label: 'График зависимости I(t) при размыкании цепи',
                   data: yDataIBreaking,
                   pointStyle: false
                 }]
